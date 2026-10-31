@@ -66,24 +66,40 @@ Technology	Purpose
 
 VidMind-AI/
 │
-├── app.py                    # Streamlit application
-├── main.py                   # Main application entry point
-├── requirements.txt          # Python dependencies
-├── .gitignore
+├── app.py
+├── main.py
+├── requirements.txt
 ├── README.md
+├── .gitignore
 │
 ├── core/
-│   ├── extractor.py          # Video/audio extraction
-│   ├── transcriber.py        # Speech-to-text processing
-│   ├── rag_engine.py         # RAG and retrieval workflow
-│   ├── summarizer.py         # Transcript summarization
-│   └── vector_store.py       # Vector database operations
+│   ├── extractor.py
+│   ├── rag_engine.py
+│   ├── summarizer.py
+│   ├── transcriber.py
+│   └── vector_store.py
 │
 ├── utils/
-│   └── audio_processor.py    # Audio processing utilities
+│   └── audio_processor.py
 │
-└── vector_db/                # Local ChromaDB data (generated at runtime)
-The vector database and downloaded/generated media are runtime data and are not required to be committed to GitHub.
+├── check_chunks.py
+├── check_key.py
+├── compare_keys.py
+├── compare_sarvam.py
+│
+├── test_auth.py
+├── test_clean.py
+├── test_hindi.py
+├── test_hindi_clean.py
+├── test_medium.py
+├── test_sarvam.py
+├── test_slow_transcription.py
+├── test_song.py
+├── test_transcriber.py
+├── test_v3.py
+├── test_vocal_transcription.py
+├── test_whisper.py
+└── test_whisper_small.py
 
 **💡 Example Use Cases**
 - Summarize a long educational lecture.
