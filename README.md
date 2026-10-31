@@ -82,30 +82,4 @@ SARVAM_STT_MODEL=saaras:v4
 WHISPER_MODEL=small
 ```
 
-### 6. Install and start Ollama
 
-Download Ollama from:
-
-https://ollama.com/
-
-Pull model:
-
-```bash
-ollama pull llama3.2
-```
-
-### 7. Run application
-
-```bash
-streamlit run app.py
-```
-
-## 🔐 Security
-
-Never upload API keys, `.env` files, private credentials, or downloaded media files.
-
-## 👨‍💻 Author
-
-Yatharth Pathak
-
-GitHub: https://github.com/yatharth783
