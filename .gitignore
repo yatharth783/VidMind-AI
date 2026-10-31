@@ -1,0 +1,54 @@
+# Python environments
+.venv/
+.venv311/
+demucs_env/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Generated audio and downloads
+downloads/
+temp/
+temp_audio/
+*.wav
+*.mp3
+*.m4a
+*.mp4
+
+# Generated transcripts
+*_transcript.txt
+*.srt
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+# Vector database
+vector_db/
+
+sarvam_debug.txt
+
+# Local testing scripts
+check_*.py
+test_*.py
+compare_*.py
