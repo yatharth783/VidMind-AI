@@ -61,8 +61,9 @@ Technology	Purpose
 - FFmpeg
 - YouTube Transcript / Audio Processing
 
-**
-📁 Project Structure**
+
+**📁 Project Structure**
+
 VidMind-AI/
 │
 ├── app.py                    # Streamlit application
